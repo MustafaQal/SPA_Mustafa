@@ -30,7 +30,9 @@ export default function Navbar() {
                         <li className="nav-item">
                             <Link className="nav-link bg-info" to="/pizza">Pizza</Link>
                         </li>
-
+                        <li className="nav-item">
+                            <Link className="nav-link bg-danger" to="/strawberry">Strawberry</Link>
+                        </li>
                     </ul>
 
                 </div>

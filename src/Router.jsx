@@ -7,6 +7,7 @@ import MainLayout from "./components/MainLayout/MainLayout";
 import DashLayout from "./components/MainLayout/DashLayout";
 import Admin from "./components/Admin/Admin";
 import Pizza from "./components/Pizza/Pizza";
+import Strawberry from "./components/Strawberry/Strawberry";
 
 const router = createBrowserRouter([
     {
@@ -36,6 +37,10 @@ const router = createBrowserRouter([
             {
                 path: "admin",
                 element: <Admin />,
+            },
+                        {
+                path: "strawberry",
+                element: <Strawberry />,
             },
         ],
     },
