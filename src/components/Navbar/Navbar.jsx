@@ -27,12 +27,18 @@ export default function Navbar() {
                         <li className="nav-item">
                             <Link className="nav-link" to="/admin">Admin</Link>
                         </li>
-                        <li className="nav-item">
-                            <Link className="nav-link bg-info" to="/pizza">Pizza</Link>
+                        {/* Mustafa: Re-added dropdown */}
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle bg-success-subtle fw-bold" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Recipes
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><Link className="nav-link bg-info fst-italic" to="/pizza">Pizza</Link></li>
+                                <li><Link className="nav-link bg-danger fst-italic" to="/strawberry">Strawberry</Link></li>
+                            </ul>
                         </li>
-                        <li className="nav-item">
-                            <Link className="nav-link bg-danger" to="/strawberry">Strawberry</Link>
-                        </li>
+
+
                     </ul>
 
                 </div>
