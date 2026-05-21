@@ -8,6 +8,7 @@ import DashLayout from "./components/MainLayout/DashLayout";
 import Admin from "./components/Admin/Admin";
 import Pizza from "./components/Pizza/Pizza";
 import Strawberry from "./components/Strawberry/Strawberry";
+import Avocado from "./components/Avocado/Avocado";
 
 const router = createBrowserRouter([
     {
@@ -42,6 +43,11 @@ const router = createBrowserRouter([
                 path: "strawberry",
                 element: <Strawberry />,
             },
+                        {
+                path: "avocado",
+                element: <Avocado />,
+            },
+            
         ],
     },
 

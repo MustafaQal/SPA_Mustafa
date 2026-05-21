@@ -29,12 +29,14 @@ export default function Navbar() {
                         </li>
                         {/* Mustafa: Re-added dropdown */}
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle bg-success-subtle fw-bold" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <a class="nav-link dropdown-toggle fw-bold text-danger" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                 Recipes
                             </a>
                             <ul class="dropdown-menu">
-                                <li><Link className="nav-link bg-info fst-italic" to="/pizza">Pizza</Link></li>
-                                <li><Link className="nav-link bg-danger fst-italic" to="/strawberry">Strawberry</Link></li>
+                                <li><Link className="nav-link bg-primary-subtle fst-italic" to="/pizza">Pizza</Link></li>
+                                <li><Link className="nav-link bg-danger-subtle fst-italic" to="/strawberry">Strawberry</Link></li>
+                                <li><Link className="nav-link bg-success-subtle fst-italic" to="/avocado">Avocado</Link></li>
+
                             </ul>
                         </li>
 
